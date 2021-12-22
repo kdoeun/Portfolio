@@ -123,17 +123,14 @@ margin: 4px 0;
 .navbar__menu__item{
     padding: 8px 12px;
     margin: 0 4px;
+    color: var(--color-white);
     cursor: pointer;
+    border: 1px solid transparent;
     border-radius: var(--size-border-radius);
 }
 
-.navbar__menu__item.active{
-    border: 1px solid var(--color-white);
-    border-radius: 4px;
-}
-
 .navbar__menu__item:hover{
-    background-color: var(--color-dark-pink);  
+    border-color: var(--color-white);
     border-radius: var(--size-border-radius); 
 }
 
@@ -190,9 +187,9 @@ margin: 4px 0;
     height: 170px;
     line-height: 170px;
     font-size: 70px;
-    color: var(--color-blue);
+    color: var(--color-black);
     margin: auto;
-    border: 1px solid var(--color-blue);
+    border: 1px solid var(--color-black);
     border-radius: 50%;
     margin-bottom: 16px;
 }
@@ -202,7 +199,7 @@ margin: 4px 0;
 }
 
 .major__icon:hover i {
-    color: var(--color-pink);
+    color: var(--color-dark-pink);
     transform: rotate(-30deg) scale(1.1);
 }
 
@@ -420,7 +417,7 @@ margin: 4px 0;
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-black);
 }
 
 .contact__title,
@@ -453,7 +450,7 @@ margin: 4px 0;
   height: 70px;
   font-size: 50px;
   color: var(--color-white);
-  background-color: var(--color-pink);
+  background-color: var(--color-black);
   border-radius: 50%;
   opacity: 0;
   pointer-events: none;
@@ -474,7 +471,7 @@ margin: 4px 0;
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-pink);
+    background-color: var(--color-grey);
   }
 
   #navbar.navbar--dark {
